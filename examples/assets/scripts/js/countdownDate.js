@@ -25,7 +25,7 @@
     let intervalId;
 
     let defaults = {
-        endDateTime: 'Jun 30, 2030 23:59:59',
+        endDateTime: '',
         initId: 'timer',
         interval: .5,
         textColor: '#fff',
