@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Countdown Date Example</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link href="assets/styles/css/core.css" rel="stylesheet">
+</head>
+<body>
+<section class="hero is-fullheight">
+    <div class="hero-body">
+        <div class="container">
+            <div id="timer"></div>
+        </div>
+    </div>
+</section>
+<script src="assets/scripts/js/countdownDate.js"></script>
+<script>
+    countdownDate.init({
+        endDateTime: 'Jul 31, 2020 23:59:59',
+        fontFamily: 'Inter, sans-serif',
+        fontSize: '5rem',
+        onFinishMessage: 'GGC is now live!'
+    });
+</script>
+</body>
+</html>
